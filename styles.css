@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .root {
+        background-color: #ccc;
+        font-size: 26px;
+        border-radius: 8px;
+        margin: 0 12px;
+    }
+
+    .title {
+        display: block;
+        padding-top: 14px;
+        margin: 14px 14px 0;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 8px;
+    }
+
+    .btn_dif {
+        width: 100%;
+        border: none;
+        margin: 12px;
+        padding: 12px 0;
+        font-size: 24px;
+        border-radius: 5px;
+
+    }
+
+    .btn {
+        background-color: #00422f;
+        color: #fff;
+        border: none;
+        padding: 12px;
+        margin-left: 12px;
+        margin-bottom: 8px;
+    }
+
+    .inp {
+        width: calc(100% - 24px);
+        padding: 12px;
+        margin: 12px;
+        border: none;
+        font-size: 24px;
+        border-radius: 5px;
+    }
+
+    .list {
+        font-size: 20px;
+        list-style: none;
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+    
+    .item {
+        padding: 6px 0;
+    }
+
+    .win {
+        font-size: 32px;
+        background-color: #01ead3;
+        margin: 12px;
+        padding: 24px 24px 32px;
+        
+    }
+
+    span {
+        display: block;
+    }
+    
+    .wrap {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+
+    
+}
